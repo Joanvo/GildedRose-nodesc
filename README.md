@@ -10,8 +10,7 @@ adventures.
 
 Hmmm... Leeroy seemed to be in a rush and left no documentation about how the system works or what it exactly does... you'll need to figure it out by yourself!
 
-Your task is to add the new feature to our system so that we 
-can begin selling a new category of items.
+Your task is to add the new feature to our system so that we  can begin selling a new category of items.
 
 We have recently signed a supplier of conjured items. This requires an 
 update to our system:
@@ -27,22 +26,31 @@ method and Items property static if you like, we'll cover for you).
 
 ## Getting Started
 
-Clone the repository. Use Visual studio to run it or play tests. You can also run build.bat from Powershell. If you see 
-output similar to the following screenshot, you are ready to 
-start refactoring.
+Clone the repository.
 
-![alt text](images/build_output.png "Good Build Output")
+You can run the program and tests with Visual Studio or using the following commands:
 
-## Who, What, Why?
+Run the program:
+
+`cd GildedRose && dotnet run`
+
+Run the tests:
+
+`cd GildedRose.Tests && dotnet test`
+
+
+## Original attribution:
+
+### Who, What, Why?
 Who: [@TerryHughes](https://twitter.com/TerryHughes), [@NotMyself](https://twitter.com/NotMyself)
 
 What & Why: [Refactor This: The Gilded Rose Kata](By IamNotMyself)
 
-## License
+### License
 
 MIT
 
-## Suggested attribution
+### Suggested attribution
 
 This work is by [@TerryHughes](https://twitter.com/TerryHughes), [@NotMyself](https://twitter.com/NotMyself)
 
